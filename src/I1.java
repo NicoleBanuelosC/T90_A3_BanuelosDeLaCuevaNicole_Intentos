@@ -6,8 +6,7 @@ public class I1 {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		double num1;
-		double num2;
+		double num1, num2;
 	
 		System.out.println("Ingresa un primer numero: ");
 		num1 = entrada.nextDouble();
@@ -18,6 +17,8 @@ public class I1 {
 		double res = num1 + num2;
 		
 		System.out.println("El resultado es: " + res);
+		
+	
 		
 	}//void main
 
